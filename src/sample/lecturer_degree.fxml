@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerLectureDegree">
+   <children>
+      <TableView fx:id="table_lecture_degree" layoutX="-4.0" layoutY="-1.0" prefHeight="400.0" prefWidth="606.0">
+        <columns>
+          <TableColumn fx:id="teacher" prefWidth="413.0" text="Викладач" />
+          <TableColumn fx:id="degree" prefWidth="89.0" text="Ступінь" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
